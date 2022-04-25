@@ -1,0 +1,347 @@
+*:before,*:after{
+	margin:0;
+	padding: 0;
+	outline: 0;
+	-webkit-box-sizing:;border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+*{
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+/*MENU Y MENU RESPONSIVE */
+.header{
+	background: #5756E5;
+	height: 80px;
+	position: absolute;
+	width: 100%;
+	top:0;
+	left: 0;
+}
+.logonav{
+	width: 100px;
+	height: 80px;
+}
+
+.logo{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 ;
+	line-height: 80px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	max-width: 992px;
+/*margin: 0 auto;*/
+}
+.nav_link{
+	color: white;
+	text-decoration: none;
+}
+
+.nav_menu{
+	display: flex;
+	margin-right: 40px;
+	list-style: none;
+
+}
+
+.nav_menu_item{
+	font-size: 18px;
+	margin: 0 20px;
+	line-height: 80px;
+	text-transform: uppercase;
+	width: max-content;
+}
+.menu__link{
+padding: 8px 12px;
+border-radius: 3px
+}
+.menu__link:hover{
+	background:#E85550;
+	transition: 0,5s;
+	color: black;
+}
+
+.toggle{
+color: white;
+background: none;
+border:none;
+font-size: 30px;
+line-height: 60px;
+display: none;
+}
+
+.menu__link_active{
+	color:#83c5f7;
+background: none;
+}
+/*header con titulos y logo*/
+#enat{
+margin: auto;
+height: 200px;
+width: 200px;
+display: block;
+}
+.titulocentral{
+	margin-top: 5%;
+background: linear-gradient(to bottom, #5756E5,#FF4545);
+color: white;
+animation-name: mover;
+animation-duration: 2s;
+}
+@keyframes mover{
+0%{
+	transform: translateX(-30%);
+	
+}
+100%{
+	transform: translateX(0%);
+}
+}
+
+.noticias{
+    background: linear-gradient(to left, blue, red);
+    color:white;
+}
+.fonttitulo{
+	font-family: monospace;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+
+/*gimnasios*/
+.container{
+	display: flex;
+	flex-wrap: wrap;
+height: 40%;
+}
+.gims{
+
+ padding:12px;
+ margin:12px;
+ border-right:inset;
+ border-bottom:inset ;
+border-color: #CACFD2;
+ width: 30%;
+ height: 450px;
+}
+.gims:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,2)
+}
+
+.h2{
+	text-align: left;
+font: monospace, cursive, 20px;
+color: red;
+}
+.ubicacion{
+text-decoration: none;	
+color: red;
+font-size: 18px;
+	font-family: arial;
+	padding: 1%;
+}
+.ubicacion:hover{
+color: orange;
+}
+.ubicacion:focus{
+	color:blue;
+}
+.nomubi{
+	
+color: black;
+}
+.listas{
+	display: flex;
+	flex-direction: column;
+		list-style: none;
+padding-left: 26px;
+font-size: 14px;
+padding-top: 10px;
+}
+ul:hover{
+	font-size: 16px;
+}
+.logos{
+	width: 30px;
+	height: 30px;
+}
+
+.iconos{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	float: left;
+	display: block;
+	font-size: 18px;
+	padding-top: 10px;
+}
+.iconos:hover{
+	color: red;
+}
+.iconos:input{
+	color:orange;
+}
+
+/*pie de pagina*/
+.contfooter{
+	background:white;
+	text-align: center;
+display: flex;
+border-bottom-style: inset;
+border-bottom-width: 2px;
+border-bottom-color: gray;
+border-top-style: inset;
+border-top-width: 2px;
+border-top-color: gray;
+}
+.font{
+	font-family: arial;
+	font-size: 20px;
+	list-style: none;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+}
+.logodiv{
+width: 100%;
+height: 200px;
+
+}
+.logoescueladiv{
+	  display: flex;
+  justify-content: center;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+.logsitf{
+	margin-left: auto;
+    display: block;
+    margin: 20px;
+}
+.logoitf{
+	list-style: none;
+	margin-left: 40px;
+}
+.itf{
+	width: 100px;
+	height: 100px;
+}
+
+@media(max-width: 992px){
+	/*NAVEGADOR*/
+	.header{
+		height: 60px;
+	}
+
+	.logonav{
+	width: 100px;
+	height: 60px;
+		font-size: 25px;
+		line-height: 60px;
+		padding: 0 20px;
+}
+	
+	.nav_menu{
+		flex-direction:column;
+		align-items: center; 
+margin-right: 30px;
+background-color: #2c3e50;
+	position: fixed;
+	left: 0;
+	top: 60px;
+	width: 100%;
+padding: 20px 0;
+overflow-y: auto;
+left: 100%;
+transition: left 0.3s;
+}
+
+.nav_menu_item{
+	line-height: 70px;
+}
+
+.menu__link:hover,
+.menu__link_active{
+	color:#83c5f7;
+background: none;
+}
+
+.toggle{
+	display:block;
+	border-color: red;
+}
+
+.nav_menu_visible{
+	left: 0;
+}
+
+.toggle:focus:not(:focus-visible){
+	outline: none;
+}
+
+/*gimnasios*/
+.gims{
+	    display: inline-block;
+    position: static;
+    width: 100%;
+    height: 550px;
+}
+.gims:hover{
+width: 100%;
+font-size: 24px;
+height: 558px;
+}
+
+b,li,ul:hover{
+font-size: 20px;
+
+}
+.logoescueladiv{
+	  display: flex;
+  justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+} 
+@media (min-width: 992px) and (max-width:1024px){
+	.nav_menu_item{
+		margin: 0;
+		text-transform: capitalize;
+	}
+	.logoescueladiv{
+	margin-left: 137px;
+    margin-right: 128px;
+	}
+}
+@media (min-width: 2560px){
+	.nav_menu_item{
+		margin: 0 132px;
+}
+.titulocentral {
+    margin-top: 3.1%;}
+
+
+    .logoescueladiv {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+}
