@@ -1,0 +1,91 @@
+/* quienes somos*/
+.quienes-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f2f2f2;
+}
+
+.cardquienessomos {
+  display: flex;
+  flex-direction: column; /* por defecto: vertical (para móvil) */
+  max-width: 1100px;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  transition: transform 0.5s ease;
+}
+
+.imgquienessomos {
+  width: 40%;
+  height: auto;
+}
+
+.img-carousel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 4; /* Mantiene proporción consistente */
+  border-left: 2px solid #e0e0e0;
+}
+
+.bodyquienessomos {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tituloquienessomos {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.textoquienessomos {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .cardquienessomos {
+    flex-direction: row;       /* 🔥 Mantenemos horizontal también en tablets/móviles */
+    flex-wrap: wrap;           /* Pero dejamos que se apile si el espacio se reduce mucho */
+  }
+
+  .imgquienessomos {
+    width: 100%;
+    max-height: 250px;
+  }
+
+  .bodyquienessomos {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .img-carousel {
+    height: 250px;
+    object-fit: cover;
+  }
+
+}
+@media (min-width: 992px) {
+  .cardquienessomos {
+    width: 50%;
+  }
+  .imgquienessomos {
+    width: 100%; /* Imagen ocupa todo el ancho */
+  }
+
+  .bodyquienessomos {
+    width: 100%; /* Texto ocupa todo el ancho */
+    padding: 40px;
+  }
+}

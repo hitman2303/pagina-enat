@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+li{
+  list-style: none;
+}
+/* header */
+.headerimg {
+  position: relative;
+  height: 300px; /* Puedes ajustar la altura */
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.headerimg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/imgs/escudo de la enat.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black; /* relleno donde no hay imagen */
+  opacity: 0.2;
+ /* Controla qué tan visible es la imagen */
+  z-index: -2;
+}
+
+.headerimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Filtro oscuro encima de la imagen */
+  z-index: -1;
+}
+
+.headerimg h1, .headerimg h2 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  margin: 0;
+  padding: 5px;
+}
+
+/* gimnasios */
+.gimnasio-card {
+  border: 2px solid #333;
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gimnasio-card header {
+  width: 100%;
+  text-align: center;
+  padding-right: 80px; /* deja espacio para el logo a la derecha */
+  position: relative;
+}
+.gimnasio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  width: 80px;
+  height: auto;
+  z-index: 1;
+  opacity: 0.9;
+
+}
+
+.gimnasio-card:hover .logo {
+  transform: scale(1.1);
+}
+
+.nombre {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ubicacion {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Aseguramos estilo distinto para los li */
+.info li {
+  color: #222;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+.info p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+
+.info {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.info h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.info ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boton {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Grid general para varios gimnasios */
+.gimnasio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 20px;
+}
+
+/* Opcional: puedes ajustar el tamaño mínimo de la card para 3-4 por fila en desktop */
+/* Formularios */
+.formulario-contacto {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.campo label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enviar {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #218838;
+}
+
+.eliminar {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.eliminar:hover {
+  background-color: #c82333;
+}
+/* Footer */
+.footer {
+  background-color: #f1f1f1; /* o el color que prefieras */
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-top: 3px solid #007bff;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column li {
+  margin-bottom: 6px;
+}
+
+.footer-column a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
