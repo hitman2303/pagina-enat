@@ -24,7 +24,7 @@ const items = [
 
   const Gimnasios =[
     {
-      logo: "../public/imgs/villaluro.jpg",
+      logo: "/imgs/villaluro.jpg",
       nombre: "Amigos de Villa Luro",
       direccion: "Ramon falcon 5176",
       horarios: [
@@ -56,7 +56,7 @@ const items = [
     whatsapp: 'https://wa.me/1544477897',
     },
     {
-      logo: "./public/imgs/federacion.png",
+      logo: "/imgs/federacion.png",
       nombre: "Federacion Caballito",
       direccion: "Av. La Plata 1151",
       horarios: [
@@ -91,7 +91,7 @@ const items = [
     ]
     },
     {
-      logo: "./public/imgs/calabresa.jfif",
+      logo: "/imgs/calabresa.jfif",
       nombre: "Asociación La Providencia",
       direccion: "Yerbal 2636",
       horarios: [
@@ -116,7 +116,7 @@ const items = [
       { nombre: 'Facebook', url: 'https://facebook.com/enrique.tkd.itf' }
     ]
     },{
-      logo: "./public/imgs/huergo.png",
+      logo: "/imgs/huergo.png",
       nombre: "Instituto Huergo",
       direccion: "Perú 759",
       horarios: [
@@ -137,7 +137,7 @@ const items = [
       { nombre: 'TikTok', url: 'https://www.tiktok.com/@taekwondovallejos' } 
     ]
     },{
-      logo: "./public/imgs/santojanni.png",
+      logo: "/imgs/santojanni.png",
       nombre: "Polideportivo Santojanni",
       direccion: "Patron 6222",
       horarios: [
@@ -158,7 +158,7 @@ const items = [
       ],
       whatsapp: 'https://wa.me/1544477897',
     },{
-      logo: "./public/imgs/ideal.jpg",
+      logo: "/imgs/ideal.jpg",
       nombre: "El ideal",
       direccion: "Montiel 5142",
       horarios: [
@@ -179,7 +179,7 @@ const items = [
       ],
       whatsapp: 'https://wa.me/1544477897',
     },{
-      logo: "./public/imgs/asis.jpg",
+      logo: "/imgs/asis.jpg",
       nombre: "Centro Asis",
       direccion: "Guamini 1728 ",
       horarios: [
@@ -199,7 +199,7 @@ const items = [
       ],
       whatsapp: 'https://wa.me/1544477897',
     },{
-      logo: "./public/imgs/quickplanet.jpeg",
+      logo: "/imgs/quickplanet.jpeg",
       nombre: "Multiespacio Quick Planet",
       direccion: "Varela 305",
       horarios: [
@@ -224,7 +224,7 @@ const items = [
         { nombre: 'Facebook', url: 'https://facebook.com/enrique.tkd.itf' }
       ]
     },{
-      logo: "./public/imgs/fermin.jpg",
+      logo: "/imgs/fermin.jpg",
       nombre: "Espacio Fermín",
       direccion: "Pedernera 135",
       horarios: [
@@ -248,7 +248,7 @@ const items = [
       { nombre: 'Instagram', url: 'https://instagram.com/Brunopablo.tkd' },
     ]
     },{
-      logo: "./public/imgs/elpoliflores.jfif",
+      logo: "/imgs/elpoliflores.jfif",
       nombre: "El poli de flores",
       direccion: "Av. Coronel Esteban Bonorino 897",
       horarios: [
@@ -271,7 +271,7 @@ const items = [
       { nombre: 'Instagram', url: 'https://instagram.com/Brunopablo.tkd' },
     ]
     },{
-      logo: "./public/imgs/lagrieta.jpeg",
+      logo: "/imgs/lagrieta.jpeg",
       nombre: "Centro cultural la grieta",
       direccion: "Adolfo Alsina 2143",
       horarios: [
@@ -298,7 +298,7 @@ const items = [
       { nombre: 'Instagram', url: 'https://instagram.com/christian_angel93' },
     ]
     },,{
-      logo: "./public/imgs/la vertiente.jpg",
+      logo: "/imgs/la vertiente.jpg",
       nombre: "La vertiente",
       direccion: "Pichincha 180",
       horarios: [
@@ -319,7 +319,7 @@ const items = [
       { nombre: 'Instagram', url: 'https://instagram.com/christian_angel93' },
     ]
     },{
-      logo: "./public/imgs/soc escudo.jpg",
+      logo: "/imgs/soc escudo.jpg",
       nombre: "sociedad de fomento Domingo f. Sarmiento",
       direccion: "Bompland 3081",
       horarios: [
@@ -342,7 +342,7 @@ const items = [
       { nombre: 'TikTok', url: 'https://www.tiktok.com/@taekwondovallejos' } 
     ]
     },{
-      logo: "./public/imgs/fortinph.jpg",
+      logo: "/imgs/fortinph.jpg",
       nombre: "Club social y deportivo el fortin",
       direccion: "Sudamerica 3281",
       horarios: [
@@ -366,7 +366,7 @@ const items = [
       { nombre: 'TikTok', url: 'https://www.tiktok.com/@taekwondovallejos' } 
     ]
     },{
-      logo: "./public/imgs/uteamph.jpg",
+      logo: "/imgs/uteamph.jpg",
       nombre: "UTEAM",
       direccion: " Zarate 3200",
       horarios: [
@@ -389,7 +389,7 @@ const items = [
       { nombre: 'TikTok', url: 'https://www.tiktok.com/@taekwondovallejos' } 
     ]
     },{
-      logo: "./public/imgs/nueva juventud.png",
+      logo: "/imgs/nueva juventud.png",
       nombre: "Club social y deportivo Nueva Juventud",
       direccion: "Felipe Lavallol 2934",
       horarios: [
