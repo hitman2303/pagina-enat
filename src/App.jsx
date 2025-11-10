@@ -279,13 +279,13 @@ const items = [
         <p>Martes</p>
           <li>17:30 hs Infantiles</li>
           <li>18:30 hs Adolecentes</li>
-          <li>19:30 hs Adultos</li>
+          <li>19:30 hs Adolescentes y adultos</li>
         <p>Jueves</p>
-          <li>17:30 hs Infantiles y adolecentes</li>
+          <li>17:30 hs Infantiles</li>
         <p>Viernes</p>
         <li>19:30 hs Adultos</li>
         <p>Sabado</p>
-          <li>13:00 hs Adolecentes</li>
+          <li>13:15 hs Adolecentes</li>
         </ul>
       ],
       instructores: [
@@ -305,8 +305,12 @@ const items = [
         <ul>
         <p>Miercoles</p>
           <li>19:00 hs Infantiles y adolecentes</li>
+          <p>Jueves</p>
+          <li>20:00 hs Adolescentes y adultos</li>
         <p>Viernes</p>
         <li>18:00 hs Infantiles y adolecentes</li>
+          <p>Sábado</p>
+          <li>12:00 hs Adolescentes y adultos</li>
         </ul>
       ],
       instructores: [
@@ -373,7 +377,7 @@ const items = [
         <ul>
         <p>Lunes</p>
           <li>18:00 hs Infantiles y adolecentes</li>
-        <p>Miercoles</p>
+        <p>Viernes</p>
           <li>18:00 hs Infantiles y adolecentes</li>
         </ul>
       ],
@@ -409,7 +413,7 @@ const items = [
     redes: [
       { nombre: 'Instagram', url: 'https://instagram.com/Taekwondo_do_vallejosfilippe' },
       { nombre: 'Facebook', url: 'https://www.facebook.com/Taekwondo Federación caballito' },
-      { nombre: 'TikTok', url: 'https://www.tiktok.com/@taekwondovallejos' } 
+      { nombre: 'TikTok', url: 'https://www.tiktok.com/@lautaro_taekwondoitf' } 
     ]
     }
   ]
