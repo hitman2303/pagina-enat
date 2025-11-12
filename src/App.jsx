@@ -26,7 +26,8 @@ const items = [
     {
       logo: "/imgs/villaluro.jpg",
       nombre: "Amigos de Villa Luro",
-      direccion: "Ramon falcon 5176",
+      direccion: "Ramon falcon 5176 (Villa luro)",
+      maps: "https://maps.app.goo.gl/AVHE42hRKJEZB1FQ7",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -58,7 +59,8 @@ const items = [
     {
       logo: "/imgs/federacion.png",
       nombre: "Federacion Caballito",
-      direccion: "Av. La Plata 1151",
+      direccion: "Av. La Plata 1151 (Caballito)",
+      maps: "https://maps.app.goo.gl/gaYX7VTy2py874v56",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -93,7 +95,8 @@ const items = [
     {
       logo: "/imgs/calabresa.jfif",
       nombre: "Asociación La Providencia",
-      direccion: "Yerbal 2636",
+      direccion: "Yerbal 2636 (Flores)",
+      maps: "https://maps.app.goo.gl/9NW9c8JdPw55DcWo6",
       horarios: [
         <ul>
         <p>Martes</p>
@@ -118,7 +121,8 @@ const items = [
     },{
       logo: "/imgs/huergo.png",
       nombre: "Instituto Huergo",
-      direccion: "Perú 759",
+      direccion: "Perú 759 (San telmo)",
+      maps:"https://maps.app.goo.gl/LspnazYuUNVdVE446",
       horarios: [
         <ul>
         <p>Miercoles</p>
@@ -139,7 +143,8 @@ const items = [
     },{
       logo: "/imgs/santojanni.png",
       nombre: "Polideportivo Santojanni",
-      direccion: "Patron 6222",
+      direccion: "Patron 6222 (Liniers)",
+      maps: "https://maps.app.goo.gl/BpZ6RqMmad6VgDGr5",
       horarios: [
         <ul>
         <p>Martes</p>
@@ -160,7 +165,8 @@ const items = [
     },{
       logo: "/imgs/ideal.jpg",
       nombre: "El ideal",
-      direccion: "Montiel 5142",
+      direccion: "Montiel 5142 (Lugano)",
+      maps: "https://maps.app.goo.gl/MFsEEsrQ7cgV33MRA",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -181,7 +187,8 @@ const items = [
     },{
       logo: "/imgs/asis.jpg",
       nombre: "Centro Asis",
-      direccion: "Guamini 1728 ",
+      direccion: "Guamini 1728 (Mataderos)",
+      maps:"https://maps.app.goo.gl/V6SbznferZKig5TH6",
       horarios: [
         <ul>
         <p>Martes</p>
@@ -201,7 +208,8 @@ const items = [
     },{
       logo: "/imgs/quickplanet.jpeg",
       nombre: "Multiespacio Quick Planet",
-      direccion: "Varela 305",
+      direccion: "Av. Varela 305 (Flores)",
+      maps: "https://maps.app.goo.gl/no2XoXyHMgfMKkEF6",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -226,7 +234,8 @@ const items = [
     },{
       logo: "/imgs/fermin.jpg",
       nombre: "Espacio Fermín",
-      direccion: "Pedernera 135",
+      direccion: "Pedernera 135 (Flores)",
+      maps: "https://maps.app.goo.gl/K2xcuQHkPpEvoTHA8",
       horarios: [
         <ul>
         <p>Martes</p>
@@ -250,7 +259,8 @@ const items = [
     },{
       logo: "/imgs/elpoliflores.jfif",
       nombre: "El poli de flores",
-      direccion: "Av. Coronel Esteban Bonorino 897",
+      direccion: "Av. Coronel Esteban Bonorino 897 (Flores)",
+      maps: "https://maps.app.goo.gl/zYwxzZztWYFC8L9G6",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -273,7 +283,8 @@ const items = [
     },{
       logo: "/imgs/lagrieta.jpeg",
       nombre: "Centro cultural la grieta",
-      direccion: "Adolfo Alsina 2143",
+      direccion: "Adolfo Alsina 2143 (Balvanera)",
+      maps: "https://maps.app.goo.gl/tz67WAmLPntfQtrW6",
       horarios: [
         <ul>
         <p>Martes</p>
@@ -300,7 +311,8 @@ const items = [
     },,{
       logo: "/imgs/la vertiente.jpg",
       nombre: "La vertiente",
-      direccion: "Pichincha 180",
+      direccion: "Pichincha 180 (Balvanera)",
+      maps: "https://maps.app.goo.gl/exEWPUgzUhmaW88Z6",
       horarios: [
         <ul>
         <p>Miercoles</p>
@@ -325,7 +337,8 @@ const items = [
     },{
       logo: "/imgs/soc escudo.jpg",
       nombre: "sociedad de fomento Domingo f. Sarmiento",
-      direccion: "Bompland 3081",
+      direccion: "Bompland 3081 (Laferrere)",
+      maps: "https://maps.app.goo.gl/gxb55NBmZmUrArrM7",
       horarios: [
         <ul>
         <p>Jueves</p>
@@ -348,7 +361,8 @@ const items = [
     },{
       logo: "/imgs/fortinph.jpg",
       nombre: "Club social y deportivo el fortin",
-      direccion: "Sudamerica 3281",
+      direccion: "Sudamerica 3281 (Laferrere)",
+      maps: "https://maps.app.goo.gl/yuNTfxMnPtFPSqqb9",
       horarios: [
         <ul>
         <p>Miercoles</p>
@@ -372,7 +386,8 @@ const items = [
     },{
       logo: "/imgs/uteamph.jpg",
       nombre: "UTEAM",
-      direccion: " Zarate 3200",
+      direccion: " Zarate 3200 (Laferrere)",
+      maps: "https://maps.app.goo.gl/v182CecS3UU1qu318",
       horarios: [
         <ul>
         <p>Lunes</p>
@@ -395,7 +410,8 @@ const items = [
     },{
       logo: "/imgs/nueva juventud.png",
       nombre: "Club social y deportivo Nueva Juventud",
-      direccion: "Felipe Lavallol 2934",
+      direccion: "Felipe Lavallol 2934 (Laferrere)",
+      maps: "https://maps.app.goo.gl/Me66JDRpMSFV6q627",
       horarios: [
         <ul>
         <p>Miercoles</p>
