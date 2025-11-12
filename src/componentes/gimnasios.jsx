@@ -7,6 +7,7 @@ function Gimnasios({ gimnasio }) {
         <img src={gimnasio.logo} alt="Logo Gimnasio" className="logo" />
         <h2 className="nombre">{gimnasio.nombre}</h2>
         <p className="ubicacion">{gimnasio.direccion}</p>
+        <p> <a href={gimnasio.maps}>Ver direccion</p>
       </header>
 
       <div className="info">
