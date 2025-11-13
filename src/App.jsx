@@ -229,6 +229,7 @@ const items = [
         <ul>
         <li>Enrique Bullevarcich V DAN</li>
         <li>Juan Cruz Escobar II DAN</li>
+          <li>Sebastian Vera I DAN</li>
         </ul>
       ],
       whatsapp: 'https://wa.me/1541427292',
