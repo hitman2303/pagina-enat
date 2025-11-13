@@ -215,9 +215,14 @@ const items = [
         <p>Lunes</p>
           <li>18:00 hs Infantiles</li>
           <li>19:00 hs Adolecentes y adultos</li>
-        <p>Viernes</p>
+                <p>Miércoles</p>
+          <li>18:00 hs Infantiles</li>
+          <p>Viernes</p>
           <li>18:00 hs Infantiles</li>
           <li>19:00 hs Adolecentes y adultos</li>
+                  <p>Sábados</p>
+          <li>10 hs Infantiles</li>
+           <li>11 hs Adolescentes y adultos</li>
         </ul>
       ],
       instructores: [
